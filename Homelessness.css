@@ -1,0 +1,68 @@
+h1 {
+	font-family: helvetica;
+	font-size: 80px;
+	text-align: center;
+}
+h2 {
+	font-family: arial;
+	text-align: center;
+
+}
+h4{
+	font-family: georgia;
+	font-weight: bold;
+	color: #595959;
+	text-align: center;
+}
+p{
+	font-family: georgia;
+	position: relative;
+	left: 25px;
+	color:#666666;
+}
+
+#byline{
+	font-style: italic;
+}
+.capital{
+	font-size: 50px;
+}
+
+a:link {
+	text-decoration:none;
+	color:#afafaf;
+}
+a:visited{
+	text-decoration:none; 
+	color:#afafaf;
+}
+a:hover{
+	text-decoration:none;
+	color:#666666;} 
+
+a:active{
+	text-decoration:none;
+	color:#666666;}
+
+img{
+	height: 80%;
+	width: 80%;
+	position: relative;
+	left: 50px;
+	bottom: 10px;
+	top:10px;
+}
+
+div{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.homeless, .help, .about{
+}
+
+p#copyright{
+	font-family: georgia;
+	font-size: 12px;
+}
