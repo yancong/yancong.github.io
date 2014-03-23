@@ -1,28 +1,28 @@
 h1 {
 	font-family: helvetica;
-	font-size: 80px;
+	font-size: 100px;
 	text-align: center;
 }
 h2 {
 	font-family: arial;
-	text-align: center;
+	font-size: 50px;
+	text-align: left;
 
 }
 h4{
 	font-family: georgia;
 	font-weight: bold;
 	color: #595959;
-	text-align: center;
+	text-align: right;
 }
 p{
 	font-family: georgia;
-	position: relative;
-	left: 25px;
 	color:#666666;
 }
 
 #byline{
 	font-style: italic;
+	text-align: center;
 }
 .capital{
 	font-size: 50px;
@@ -45,12 +45,20 @@ a:active{
 	color:#666666;}
 
 img{
-	height: 80%;
-	width: 80%;
+	height: 100%;
+	width: 100%;
 	position: relative;
-	left: 50px;
 	bottom: 10px;
-	top:10px;
+	top:00px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img.soup{
+	height:45%;
+	width: 45%;
+	float: left;
+	padding: 20px;
 }
 
 div{
@@ -59,10 +67,32 @@ div{
 	margin-left: auto;
 }
 
-.homeless, .help, .about{
+div.about, .help{
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.homeless,.service{
+	width:1000px;
+}
+
+.loc{
+	font-weight: lighter;
+}
+.name{
+	width:150px;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+.name, .content{
+	float:left;
 }
 
 p#copyright{
 	font-family: georgia;
 	font-size: 12px;
+	text-align: center;
 }
