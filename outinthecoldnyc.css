@@ -8,6 +8,11 @@ div#pix{
 	width:100%;
 }
 
+#latest{
+	width: 25%;
+	height:25%;
+	background-color: black;
+}
 img.icon{
 	width: 25%;
 	height: 25%;
