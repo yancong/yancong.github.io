@@ -1,0 +1,35 @@
+h1 {
+	font-family: Times New Roman;
+	font-size: 80px;
+	text-align: center;
+}
+
+div#pix{
+	width:100%;
+}
+
+img.icon{
+	width: 25%;
+	height: 25%;
+	float: left;
+}
+
+
+#intro{
+	text-align: center;
+}
+#latest{
+	background-color: black;
+}
+
+
+#byline{
+	font-style: italic;
+	text-align: center;
+}
+
+p#copyright{
+	font-family: georgia;
+	font-size: 12px;
+	text-align: center;
+}
